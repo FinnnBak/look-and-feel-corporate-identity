@@ -1,31 +1,31 @@
 body {
     background-color: rgb(4, 0, 0);
     color: rgb(252, 253, 252);
-    margin: 0; /* Verwijder standaard marge */
+    margin: 0; 
     font-family: Figtree;
     
 }
 
 
 .header-container {
-    position: relative; /* Nodig voor het positioneren van de overlay */
-    text-align: center; /* Centreert de tekst */
+    position: relative; 
+    text-align: center; 
 }
 
 .background-image {
-    width:50%; /* Laat de afbeelding de breedte van de container vullen */
-    height: 50%; /* Behoudt de verhoudingen van de afbeelding */
-    z-index: 1; /* Zorgt dat de afbeelding achter de tekst blijft */
+    width:50%; 
+    height: 50%; 
+    z-index: 1; 
     left: -20px;
     
 }
-/* Nieuwe CSS voor de afbeelding en tekst */
+
 .container {
-    position: relative; /* Positionering voor de overlay tekst */
-    width: 100%; /* Breedte van de container */
-    margin: auto; /* Centreert de container */
-    margin: 20px; /* Ruimte rondom de tekstcontainer */
-    text-align: left; /* Tekst links uitlijnen */
+    position: relative; 
+    width: 100%; 
+    margin: auto; 
+    margin: 20px; 
+    text-align: left; 
 }
 
 h1 {
@@ -34,14 +34,14 @@ h1 {
     font-weight: 800;
     line-height: 75px;
     text-align: left;
-    position: absolute; /* Absoluut positioneren ten opzichte van de container */
-    top: 50%; /* Plaatst de tekst verticaal in het midden */
-    left: 50%; /* Plaatst de tekst horizontaal in het midden */
-    transform: translate(-50%, -50%); /* Centreert de tekst */
-    color: white; /* Kleur van de tekst */
-    font-size: 100px; /* Grootte van de tekst */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 100px; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-    margin: 0; /* Verwijder standaard marge */
+    margin: 0; 
 }
 
 p {
@@ -58,25 +58,25 @@ p {
 }
 
 a {
-    text-align: center; /* Tekst l/r uitlijnen */
+    text-align: center; 
     display:inline-block;
-    margin-left: 30%; /* Verschuif de tekst % naar rechts */
+    margin-left: 30%; 
 }
 
 .link-button {
     display: inline-block;
-    width: 200px; /* Breedte van de rechthoek */
-    height: 60px; /* Hoogte van de rechthoek */
-    padding: 0; /* Geen padding */
-    line-height: 60px; /* Verticaal centreren */
-    text-align: center; /* Horizontaal centreren */
-    color: white; /* Tekstkleur */
-    text-decoration: none; /* Verwijder onderstreping */
-    border-radius: 15px; /* Maak de hoeken afgerond */
-    background-color: rgb(4, 0, 0); /* Achtergrondkleur */
+    width: 200px; 
+    height: 60px; 
+    padding: 0; 
+    line-height: 60px; 
+    text-align: center; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 15px; 
+    background-color: rgb(4, 0, 0); 
     border: 1px solid white;
     box-sizing: border-box;
-    transition: background-color 0.3s; /* Effect voor achtergrondkleurverandering */
+    transition: background-color 0.3s; 
 
 
 }
